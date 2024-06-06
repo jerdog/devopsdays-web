@@ -5,7 +5,54 @@ aliases = ["/events/2024-kansas-city/"]
 Description = "DevOpsDays Kansas City 2024, May 15-16, 2024!"
 +++
 
-# After 4 years, DevOpsDays Kansas City is May 15-16, 2024!
+# DevOpsDays Kansas City was May 15-16, 2024!
+
+After 4 years, it was great to be back! Thank you to all of our speakers, sponsors, and volunteers who made the event AWESOME! Check out the talks from the event, and we look forward to seeing you in 2025!
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row justify-content-center">
+        <div class="d-flex p-2">
+          <a class="btn btn-primary btn-block"
+            style="margin-top: 10px; margin-bottom: 10px; background-color: #FF0000; border-color: #FF0000;"
+            href="https://youtube.com/playlist?list=PLH2p9sgqfZScxogG92KWMdY6K7BhjaDnr">
+            <i class="fa-brands fa-youtube fa-lg"></i>&nbsp;&nbsp;&nbsp;Day One Talks
+          </a>
+        </div>
+        <div class="d-flex p-2">
+          <a class="btn btn-primary btn-block"
+            style="margin-top: 10px; margin-bottom: 10px; background-color: #FF0000; border-color: #FF0000;"
+            href="https://youtube.com/playlist?list=PLH2p9sgqfZSeJ0U3Lc7YujUPSUNKr8Vs_">
+            <i class="fa-brands fa-youtube fa-lg"></i>&nbsp;&nbsp;&nbsp;Day Two Talks
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row justify-content-center">
+        <div class="d-flex p-2">
+          <a class="btn btn-primary btn-block"
+            style="margin-top: 10px; margin-bottom: 10px; background-color: #96bfe6; border-color: #96bfe6;"
+            href="/events/2024-kansas-city/contact">
+            <i class="fa fa-envelope-o fa-lg"></i>&nbsp;&nbsp;&nbsp;Contact the Organizers
+          </a>
+        </div>
+        <div class="d-flex p-2">
+          <a class="btn btn-primary btn-block"
+            style="margin-top: 10px; margin-bottom: 10px; background-color: #96bfe6; border-color: #96bfe6;"
+            href="https://lists.devopsdays.org/subscription?f=TYbgJMtfqomf8uYARrTHhqAKoinSX763iDCLAvdcUFPDW2aF7J7EY53W1TeVcYoawk">
+            <i class="fa fa-wpforms fa-lg"></i>&nbsp;&nbsp;&nbsp;Join the mailing list
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 
 <div style="text-align:center;">
