@@ -1,6 +1,6 @@
 name: test hugo
 
-on: [pull_request, workflow_dispatch]
+on: [pull_request, push]
 
 env:
   NODE_VERSION: 16
