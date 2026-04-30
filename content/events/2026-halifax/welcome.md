@@ -67,25 +67,31 @@ Description = "DevOpsDays Halifax 2026 — September 29, 2026 at Volta in downto
 }
 .hfx26 .tagline { color: var(--text-2); font-size: 1.15em; max-width: 640px; margin: 0 auto 2em; line-height: 1.55; }
 .hfx26 .cta-row { display: flex; flex-wrap: wrap; gap: 0.85em; justify-content: center; }
-.hfx26 .btn {
-  display: inline-flex; align-items: center; justify-content: center;
-  padding: 0.9em 1.75em;
-  border-radius: 10px;
-  font-weight: 600;
-  font-size: 1em;
+.hfx26 .hfx26-btn {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9em 1.75em !important;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+  font-size: 1em !important;
   transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
-  border: 1px solid var(--border);
+  border: 1px solid var(--border) !important;
+  text-decoration: none !important;
 }
-.hfx26 .btn:hover { text-decoration: none; transform: translateY(-2px); }
-.hfx26 .btn-primary {
-  background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
-  color: var(--text);
-  border: none;
+.hfx26 .hfx26-btn:hover { text-decoration: none !important; transform: translateY(-2px); }
+.hfx26 .hfx26-btn-primary {
+  background: linear-gradient(135deg, var(--accent-1), var(--accent-2)) !important;
+  color: var(--text) !important;
+  border: none !important;
   box-shadow: 0 4px 22px rgba(124, 92, 255, 0.45);
 }
-.hfx26 .btn-primary:hover { box-shadow: 0 6px 30px rgba(124, 92, 255, 0.6); }
-.hfx26 .btn-secondary { background: var(--surface); color: var(--text); }
-.hfx26 .btn-secondary:hover { border-color: var(--accent-3); color: var(--accent-3); }
+.hfx26 .hfx26-btn-primary:hover { box-shadow: 0 6px 30px rgba(124, 92, 255, 0.6); color: var(--text) !important; }
+.hfx26 .hfx26-btn-secondary {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+}
+.hfx26 .hfx26-btn-secondary:hover { border-color: var(--accent-3) !important; color: var(--accent-3) !important; }
 .hfx26 .body { padding: 3em 2em; background: var(--bg); }
 .hfx26 .stats-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1em; margin-bottom: 3em; }
 .hfx26 .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.5em 1em; text-align: center; }
@@ -122,7 +128,7 @@ Description = "DevOpsDays Halifax 2026 — September 29, 2026 at Volta in downto
   .hfx26 .footer-cta { padding: 2em 1.25em; }
   .hfx26 .stats-row { grid-template-columns: 1fr; gap: 0.65em; }
   .hfx26 .cta-row { flex-direction: column; }
-  .hfx26 .btn { width: 100%; }
+  .hfx26 .hfx26-btn { width: 100%; }
   .hfx26 .meta { font-size: 0.85em; }
 }
 </style>
@@ -133,15 +139,15 @@ Description = "DevOpsDays Halifax 2026 — September 29, 2026 at Volta in downto
 <h1>DevOpsDays Halifax 2026</h1>
 <p class="tagline">A day dedicated to learning, collaboration, and community for practitioners across Atlantic Canada and beyond.</p>
 <div class="cta-row">
-<a class="btn btn-primary" href="https://talks.devopsdays.org/halifax-2026/cfp">Propose a Talk</a>
-<a class="btn btn-secondary" href="../sponsor/">Become a Sponsor</a>
+<a class="hfx26-btn hfx26-btn-primary" href="https://talks.devopsdays.org/halifax-2026/cfp">Propose a Talk</a>
+<a class="hfx26-btn hfx26-btn-secondary" href="../sponsor/">Become a Sponsor</a>
 </div>
 </div>
 <div class="body">
 <div class="stats-row">
-<div class="stat"><div class="stat-num">200+</div><div class="stat-label">Attendees in 2024</div></div>
-<div class="stat"><div class="stat-num">20</div><div class="stat-label">Expert speakers</div></div>
-<div class="stat"><div class="stat-num">3</div><div class="stat-label">Years strong</div></div>
+<div class="stat"><div class="stat-num">350+</div><div class="stat-label">Attendees since 2024</div></div>
+<div class="stat"><div class="stat-num">30+</div><div class="stat-label">Speakers since 2024</div></div>
+<div class="stat"><div class="stat-num">3rd</div><div class="stat-label">Annual edition</div></div>
 </div>
 <div class="section">
 <p>Building on the momentum of previous years, we are bringing the community together again for insightful talks, engaging Open Spaces, and meaningful connection. Expect sessions grounded in real-world experience, covering the topics teams are navigating today.</p>
