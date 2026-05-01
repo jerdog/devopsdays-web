@@ -66,7 +66,7 @@ Description = "DevOpsDays Halifax 2026 — September 29, 2026 at Volta in downto
   letter-spacing: -0.01em;
 }
 .hfx26 .tagline { color: var(--text-2); font-size: 1.15em; max-width: 640px; margin: 0 auto 2em; line-height: 1.55; }
-.hfx26 .cta-row { display: flex; flex-wrap: wrap; gap: 0.85em; justify-content: center; }
+.hfx26 .hfx26-cta-row { display: flex !important; flex-wrap: wrap; gap: 0.85em; justify-content: center; background: transparent !important; padding: 0 !important; margin: 0 !important; }
 .hfx26 .hfx26-btn {
   display: inline-flex !important;
   align-items: center;
@@ -118,8 +118,8 @@ Description = "DevOpsDays Halifax 2026 — September 29, 2026 at Volta in downto
 .hfx26 .footer-cta { background: var(--surface); border-top: 1px solid var(--border); padding: 2.5em 2em; }
 .hfx26 .footer-cta h3 { text-align: center; margin: 0 0 1.25em; color: var(--text); font-size: 1.15em; font-weight: 600; }
 .hfx26 .nav-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 0.65em; }
-.hfx26 .nav-link { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 0.85em 1em; text-align: center; color: var(--text); font-weight: 500; transition: border-color 0.15s ease, color 0.15s ease, transform 0.15s ease; }
-.hfx26 .nav-link:hover { border-color: var(--accent-3); color: var(--accent-3); text-decoration: none; transform: translateY(-1px); }
+.hfx26 .hfx26-nav-link { background: var(--bg) !important; border: 1px solid var(--border) !important; border-radius: 8px !important; padding: 0.85em 1em !important; text-align: center; color: var(--text) !important; font-weight: 500; transition: border-color 0.15s ease, color 0.15s ease, transform 0.15s ease; text-decoration: none !important; }
+.hfx26 .hfx26-nav-link:hover { border-color: var(--accent-3) !important; color: var(--accent-3) !important; transform: translateY(-1px); }
 .hfx26 .conduct-note { color: var(--text-2); font-size: 0.95em; text-align: center; margin: 2em 0 0; }
 @media (max-width: 760px) {
   .hfx26 h1 { font-size: 2em; }
@@ -127,7 +127,7 @@ Description = "DevOpsDays Halifax 2026 — September 29, 2026 at Volta in downto
   .hfx26 .body { padding: 2em 1.25em; }
   .hfx26 .footer-cta { padding: 2em 1.25em; }
   .hfx26 .stats-row { grid-template-columns: 1fr; gap: 0.65em; }
-  .hfx26 .cta-row { flex-direction: column; }
+  .hfx26 .hfx26-cta-row { flex-direction: column !important; }
   .hfx26 .hfx26-btn { width: 100%; }
   .hfx26 .meta { font-size: 0.85em; }
 }
@@ -138,7 +138,7 @@ Description = "DevOpsDays Halifax 2026 — September 29, 2026 at Volta in downto
 <div class="meta"><span class="meta-dot"></span> September 29, 2026 &nbsp;·&nbsp; Volta &nbsp;·&nbsp; Downtown Halifax</div>
 <h1>DevOpsDays Halifax 2026</h1>
 <p class="tagline">A day dedicated to learning, collaboration, and community for practitioners across Atlantic Canada and beyond.</p>
-<div class="cta-row">
+<div class="hfx26-cta-row">
 <a class="hfx26-btn hfx26-btn-primary" href="https://talks.devopsdays.org/halifax-2026/cfp">Propose a Talk</a>
 <a class="hfx26-btn hfx26-btn-secondary" href="../sponsor/">Become a Sponsor</a>
 </div>
@@ -182,11 +182,11 @@ Description = "DevOpsDays Halifax 2026 — September 29, 2026 at Volta in downto
 <div class="footer-cta">
 <h3>Explore</h3>
 <div class="nav-grid">
-<a class="nav-link" href="../location/">Venue Info</a>
-<a class="nav-link" href="https://talks.devopsdays.org/halifax-2026/cfp">Propose a Talk</a>
-<a class="nav-link" href="../sponsor/">Become a Sponsor</a>
-<a class="nav-link" href="../conduct/">Code of Conduct</a>
-<a class="nav-link" href="../contact/">Contact Us</a>
+<a class="hfx26-nav-link" href="../location/">Venue Info</a>
+<a class="hfx26-nav-link" href="https://talks.devopsdays.org/halifax-2026/cfp">Propose a Talk</a>
+<a class="hfx26-nav-link" href="../sponsor/">Become a Sponsor</a>
+<a class="hfx26-nav-link" href="../conduct/">Code of Conduct</a>
+<a class="hfx26-nav-link" href="../contact/">Contact Us</a>
 </div>
 </div>
 </div>
