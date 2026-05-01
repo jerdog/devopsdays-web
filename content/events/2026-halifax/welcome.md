@@ -92,6 +92,24 @@ Description = "DevOpsDays Halifax 2026 — September 29, 2026 at Volta in downto
   color: var(--text) !important;
 }
 .hfx26 .hfx26-btn-secondary:hover { border-color: var(--accent-3) !important; color: var(--accent-3) !important; }
+.hfx26 .explore-bar {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 1.5em 2em;
+}
+.hfx26 .explore-bar h3 {
+  text-align: center;
+  margin: 0 0 1em;
+  color: var(--text);
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.hfx26 .nav-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 0.65em; }
+.hfx26 .hfx26-nav-link { background: var(--bg) !important; border: 1px solid var(--border) !important; border-radius: 8px !important; padding: 0.85em 1em !important; text-align: center; color: var(--text) !important; font-weight: 500; transition: border-color 0.15s ease, color 0.15s ease, transform 0.15s ease; text-decoration: none !important; }
+.hfx26 .hfx26-nav-link:hover { border-color: var(--accent-3) !important; color: var(--accent-3) !important; transform: translateY(-1px); }
 .hfx26 .body { padding: 3em 2em; background: var(--bg); }
 .hfx26 .stats-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1em; margin-bottom: 3em; }
 .hfx26 .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.5em 1em; text-align: center; }
@@ -110,22 +128,16 @@ Description = "DevOpsDays Halifax 2026 — September 29, 2026 at Volta in downto
 .hfx26 .section p { color: var(--text-2); line-height: 1.7; font-size: 1.05em; margin: 0 0 1em; }
 .hfx26 .section p strong { color: var(--text); }
 .hfx26 .topic-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0.65em; margin-top: 1.25em; }
-.hfx26 .topic { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 0.8em 1em; color: var(--text-2); text-align: center; font-size: 0.95em; transition: border-color 0.15s ease, color 0.15s ease; }
-.hfx26 .topic:hover { border-color: var(--accent-1); color: var(--text); }
+.hfx26 .topic { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 0.8em 1em; color: var(--text-2); text-align: center; font-size: 0.95em; }
 .hfx26 .video-wrap { position: relative; padding-bottom: 56.25%; height: 0; border-radius: 12px; overflow: hidden; border: 1px solid var(--border); margin: 1em 0 1em; }
 .hfx26 .video-wrap iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
 .hfx26 .video-caption { text-align: center; color: var(--text-2); font-size: 0.95em; margin-top: 0.5em; }
-.hfx26 .footer-cta { background: var(--surface); border-top: 1px solid var(--border); padding: 2.5em 2em; }
-.hfx26 .footer-cta h3 { text-align: center; margin: 0 0 1.25em; color: var(--text); font-size: 1.15em; font-weight: 600; }
-.hfx26 .nav-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 0.65em; }
-.hfx26 .hfx26-nav-link { background: var(--bg) !important; border: 1px solid var(--border) !important; border-radius: 8px !important; padding: 0.85em 1em !important; text-align: center; color: var(--text) !important; font-weight: 500; transition: border-color 0.15s ease, color 0.15s ease, transform 0.15s ease; text-decoration: none !important; }
-.hfx26 .hfx26-nav-link:hover { border-color: var(--accent-3) !important; color: var(--accent-3) !important; transform: translateY(-1px); }
 .hfx26 .conduct-note { color: var(--text-2); font-size: 0.95em; text-align: center; margin: 2em 0 0; }
 @media (max-width: 760px) {
   .hfx26 h1 { font-size: 2em; }
   .hfx26 .hero { padding: 2.75em 1.25em 2.25em; }
   .hfx26 .body { padding: 2em 1.25em; }
-  .hfx26 .footer-cta { padding: 2em 1.25em; }
+  .hfx26 .explore-bar { padding: 1.25em; }
   .hfx26 .stats-row { grid-template-columns: 1fr; gap: 0.65em; }
   .hfx26 .hfx26-cta-row { flex-direction: column !important; }
   .hfx26 .hfx26-btn { width: 100%; }
@@ -135,12 +147,23 @@ Description = "DevOpsDays Halifax 2026 — September 29, 2026 at Volta in downto
 <div class="hfx26">
 <div class="hero">
 <div class="logo">{{< event_logo >}}</div>
-<div class="meta"><span class="meta-dot"></span> September 29, 2026 &nbsp;·&nbsp; Volta &nbsp;·&nbsp; Downtown Halifax</div>
+<div class="meta"><span class="meta-dot"></span> September 29, 2026 &nbsp;·&nbsp; Downtown Halifax</div>
 <h1>DevOpsDays Halifax 2026</h1>
-<p class="tagline">A day dedicated to learning, collaboration, and community for practitioners across Atlantic Canada and beyond.</p>
+<p class="tagline">A day dedicated to learning, collaboration, and community for tech practitioners across Atlantic Canada and beyond.</p>
 <div class="hfx26-cta-row">
 <a class="hfx26-btn hfx26-btn-primary" href="https://talks.devopsdays.org/halifax-2026/cfp">Propose a Talk</a>
 <a class="hfx26-btn hfx26-btn-secondary" href="../sponsor/">Become a Sponsor</a>
+</div>
+</div>
+<div class="explore-bar">
+<h3>Explore</h3>
+<div class="nav-grid">
+<a class="hfx26-nav-link" href="../location/">Venue Info</a>
+<a class="hfx26-nav-link" href="https://talks.devopsdays.org/halifax-2026/cfp">Propose a Talk</a>
+<a class="hfx26-nav-link" href="../sponsor/">Become a Sponsor</a>
+<a class="hfx26-nav-link" href="../convince-your-boss/">Convince Your Boss</a>
+<a class="hfx26-nav-link" href="../conduct/">Code of Conduct</a>
+<a class="hfx26-nav-link" href="../contact/">Contact Us</a>
 </div>
 </div>
 <div class="body">
@@ -178,15 +201,5 @@ Description = "DevOpsDays Halifax 2026 — September 29, 2026 at Volta in downto
 <p>Thank you to our venue sponsor, <strong>Volta</strong>, for hosting us in downtown Halifax.</p>
 </div>
 <p class="conduct-note">By attending, you agree to the <a href="../conduct/">DevOpsDays Halifax Code of Conduct</a>.</p>
-</div>
-<div class="footer-cta">
-<h3>Explore</h3>
-<div class="nav-grid">
-<a class="hfx26-nav-link" href="../location/">Venue Info</a>
-<a class="hfx26-nav-link" href="https://talks.devopsdays.org/halifax-2026/cfp">Propose a Talk</a>
-<a class="hfx26-nav-link" href="../sponsor/">Become a Sponsor</a>
-<a class="hfx26-nav-link" href="../conduct/">Code of Conduct</a>
-<a class="hfx26-nav-link" href="../contact/">Contact Us</a>
-</div>
 </div>
 </div>
