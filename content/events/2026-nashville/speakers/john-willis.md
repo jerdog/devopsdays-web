@@ -8,5 +8,16 @@ linktitle = "john-willis"
 Website = ""
 +++
 
-Mike is a 20 year veteran of technology operations across a dozen industries. He's an international speaker/presenter having presented in Europe and across America. Today he provides various organizations with a deep insight through a variety of technical challenges while also volunteering to organize DevOpsDays Nashville. 
+<h3>
+Author and Consultant - Botchgalupe Technologies
+</h3>
 
+<p>
+John Willis has worked in the IT management for over 40 years. He is researching DevOps, DevSecOps, IT risk, modern governance, and audit compliance. Previously, he was an Evangelist at Docker Inc., VP of Solutions for Socketplane (sold to Docker) and Enstratius (sold to Dell), and VP of Training & Services at Opscode, where he formalized the training, evangelism, and professional services functions at the firm. Additionally, Willis founded Gulf Breeze Software, an award-winning IBM business partner specializing in Tivoli technology deployment. As an author, Willis has written six IBM Redbooks on enterprise systems management and four books for IT Revolution, including the DevOps Handbook. He is working on his latest book, The Operational History of Generative AI.
+</p>
+
+<style>
+  p {
+    text-align: justify;
+  }
+</style>
