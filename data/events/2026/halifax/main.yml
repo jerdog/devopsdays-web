@@ -50,7 +50,7 @@ team_members:
     employer: "VTScada by Trihedral (A Delta Group Company)"
     github: "SeifElbayomi"
     linkedin: "https://www.linkedin.com/in/seifelbayomi/"
-organizer_email: "[halifax@devopsdays.org](mailto:halifax@devopsdays.org)"
+organizer_email: "halifax@devopsdays.org"
 sponsors:
   - id: volta
     level: venue
