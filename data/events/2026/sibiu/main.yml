@@ -138,10 +138,6 @@ sponsor_levels:
     label: Community
   - id: media
     label: Media
-  - id: Food & Drinks
-    label: Food & Drinks
-  - id: Prize & Giveaway
-    label: Prize & Giveaway
 
 program:
   - title: "Opening & Registration"
